@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College project </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            color: white;
+
+            /* font-weight: bold; */
+            font-family: "Bree Serif", serif;
+            background-color: #ded6d6;
+            margin: 0px 0px;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        /* NAVIGATION BAR  */
+        #navbar {
+            display: flex;
+            flex-direction: column;
+            background-color: grey;
+            color: black;
+            height: 80px;
+
+            font-size: 1.25rem;
+        }
+
+        #img1 {
+            margin: 20px 400px;
+        }
+
+        ul {
+            position: absolute;
+            top: 0;
+            right: 400px;
+        }
+
+        .item {
+            display: inline-block;
+            margin: 0 20px;
+            padding: 10px 10px;
+        }
+
+        .name {
+            /* margin: 20px 20px ; */
+            position: absolute;
+            top: 1.5rem;
+            left: 5rem;
+            font-size: 1.56rem;
+        }
+
+        #navbar a {
+            color: black;
+            text-decoration: none;
+        }
+
+        #navbar a:hover,
+        #navbar a:active {
+            color: white;
+            text-decoration: underline;
+        }
+
+        /* HOME SECTION  */
+        section{
+            height: 100vh;
+            width: 100vw;
+        }
+        #home {
+            display: flex;
+            flex-direction: column;
+            margin-left: 15px;
+        }
+
+        #home h4 {
+
+            color: black;
+            font-weight: normal;
+        }
+
+        section p {
+
+            color: black;
+        }
+
+        section #duration {
+            color: black;
+        }
+
+        section .heading {
+            font-size: 1.25rem;
+            /* font-weight: unset; */
+        }
+
+        section #image {
+            display: flex;
+            /* flex-direction: column; */
+        }
+
+        section a {
+            justify-content: center;
+            margin: auto;
+            width: 500px;
+            height: 300px;
+        }
+
+        section table {
+            color: black;
+        }
+
+
+        .routine {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }   
+
+        .routine a{
+            text-decoration: none;
+            text-transform: capitalize;
+            background-color: black;
+            color: white;
+            padding: 8px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+
+        <div class="name">Department of Computer Application</div>
+        <ul>
+
+            <li class="item" id="item-1"><a href="#">Home</a></li>
+            <li class="item" id="item-2"><a href="https://en.wikipedia.org/wiki/Wi-Fi" target="_blank">Wifi</a></li>
+            <li class="item" id="item-3"><a href="https://en.wikipedia.org/wiki/Local_area_network"
+                    target="_blank">LAN</a></li>
+        </ul>
+
+
+    </nav>
+    <img src="im.jfif" alt="" height="400px" width="800px" id="img1">
+
+    <section id="home">
+        <h4> <span class="heading"> Program offered by : </span><a href="http://iul.ac.in/CA" target="_blank">
+                Department of Computer
+                Application </a></h4>
+
+        <p id="about"> Focusing on expertise in communication systems and information technology and their effective
+            application in business issues,
+            this undergraduate program covers various aspects of compute applications and integrates the latest industry
+            developments in the course curriculum.The graduates of the program have a solid foundation in industrial
+            computing or important aspects of computer science and analyze and optimize the use of latest technologies
+            in the business environment.They are well-equipped to work as professionals in the fields of software
+            development, design and implementation.</p>
+
+        <h4 id="duration"> <span class="heading"> Duration : </span> 3yrs | <a
+                href="http://iul.ac.in/admissioninfo/FeeInd.aspx">Fee
+                Structure</a></h4>
+        <p>
+            <span class="heading"> Eligibility:-</span> <br>
+            A candidate must have passed 10+2 in any discipline with minimum 45% marks in aggregate from a recognized
+            Board/ University.
+        </p>
+        <p>
+            <span class="heading"> Admission Procedure :-</span> <br>
+
+            Admission in all the courses will be based on merit. <br>
+            A course wise merit list will be called for counselling,which eventually would lead to the admission.
+        </p>
+        <p>
+            <span class="heading"> Important Note :-</span> <br>
+            Candidates who have appeared in the qualifying exam in the current year and have applied for admission in
+            any UG/PG program of this University should submit the Marks Sheet of the qualifying examination latest by
+            July/Aug of the same year.
+
+        </p>
+        </div>
+    </section>
+    <section class="routine">
+        <h1 style="color: black;">B.C.A Time Table</h1>
+        <div class="container">
+            <table border="2" cellspacing="5" cellpadding="10">
+                <tr>
+                    <th>
+                    </th>
+                    <th>
+                        1 <br>
+                        9:00 - 9:50
+                    </th>
+                    <th>
+                        2 <br>
+                        9:50 - 10:40
+                    </th>
+                    <th>
+                        3 <br>
+                        10:40 - 11:30
+                    </th>
+                    <th>
+                        4 <br>
+                        11:30 - 12:20
+                    </th>
+                    <th>
+                        Lunch <br>
+                        12:20 - 1:30
+                    </th>
+                    <th>
+                        5 <br>
+                        1:30 - 2:20
+                    </th>
+                    <th>
+                        6 <br>
+                        2:20 - 3:10
+                    </th>
+                    <th>
+                        7 <br>
+                        3:10 - 4:00
+                    </th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td></td>
+                    <td></td>
+                    <td>CA-301</td>
+                    <td>CA-307</td>
+                    <td rowspan="7" id="down">Lunch</td>
+                    <td>CA-302</td>
+                    <td>CA-304</td>
+                    <td>CA-301</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>
+                        CA-307
+                    </td>
+                    <td>PPP(APTITUDE)</td>
+                    <td>CA-302</td>
+                    <td>CA-303</td>
+                    <td colspan="3">
+
+                        CA-311
+                <tr>
+                    <td>Wednesday </td>
+                    <td>CA-302 </td>
+                    <td></td>
+                    <td>CA-304 </td>
+                    <td> </td>
+                    <td>CA-303 </td>
+                    <td></td>
+                    <td>CA-301 </td>
+                </tr>
+                <tr>
+                    <td> Thursday </td>
+                    <td>
+                        CA-307
+                    </td>
+                    <td colspan="3">
+                        CA-310
+                    </td>
+                    <td> CA-3054 </td>
+                    <td> PPP(SOFTSKILL) </td>
+                    <td> CA-303 </td>
+                </tr>
+                <tr>
+                    <td> Friday</td>
+                    <td> </td>
+                    <td> </td>
+                    <td> CA301 </td>
+                    <td> CA-302</td>
+                    <td> </td>
+                    <td> CA-304 </td>
+                    <td> CA-303 </td>
+                </tr>
+                <tr>
+                    <td>Saturday </td>
+                    <td>Library </td>
+                    <td colspan="2">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td colspan="2" width="100%" height="100%">CA-312</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td> </td>
+                    <td> </td>
+                    <td>
+                        CA-307
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+            <br>
+          <a href="#navbar">Go to top</a>
+        </div>
+    </section>
+</body>
+
+</html>
